@@ -1,8 +1,6 @@
 
 pipeline {
-  agent {
-  label 'Jenkin'
-}
+  agent any
 
   stages {
     stage ('BUILD') {
